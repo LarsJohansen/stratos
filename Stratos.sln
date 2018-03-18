@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stratos", "Stratos\Stratos.csproj", "{20B6B2A0-99A0-4A0A-B8C7-DE455283C7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B6B2A0-99A0-4A0A-B8C7-DE455283C7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B6B2A0-99A0-4A0A-B8C7-DE455283C7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B6B2A0-99A0-4A0A-B8C7-DE455283C7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B6B2A0-99A0-4A0A-B8C7-DE455283C7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2262AEC5-59DB-4418-9FA8-EA84142D2DF1}
+	EndGlobalSection
+EndGlobal
