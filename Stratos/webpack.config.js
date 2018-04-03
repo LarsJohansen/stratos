@@ -34,6 +34,10 @@ module.exports = (env) => {
             ]
         },
         output: { path: path.join(__dirname, clientBundleOutputDir) },
+        watch: isDevBuild,
+        watchOptions: {
+            poll: isDevBuild ? 1000 : false
+        },
         plugins: [
             new ExtractTextPlugin('site.css'),
             new webpack.DllReferencePlugin({
